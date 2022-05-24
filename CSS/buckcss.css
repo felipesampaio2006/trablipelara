@@ -1,0 +1,71 @@
+@import url('http://fonts.cdnfonts.com/css/tabardo');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(54, 139, 51);
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+header h1 {
+    font-size: 30pt;
+    font-family: 'Tabardo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.historia {
+    margin: 10px 100px;
+    width: 60vw;
+}
+
+#jog {
+    width: 300px;
+    height: 400px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 245, 245);
+}
+
+h2 {
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+
+.oscar {
+    font-size: 30pt;
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
